@@ -45,6 +45,10 @@ class Time:
         if self.minute >= 60 or self.second >= 60 or self.hour >= 24:
             return False
         return True
+    
+    def __str__(self):
+        '''returns a string of the object itself'''
+        return  f'{self.hour:02d}:{self.minute:02d}:{self.second:02d}'
 
 def sec_to_time(seconds):
     '''convert a given number of seconds to a time object in 

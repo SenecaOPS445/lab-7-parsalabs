@@ -48,7 +48,7 @@ class Time:
     
     def __str__(self):
         '''return a string representation for the object self'''
-        return  f'{self.hour:02d}:{self.minute:02d}:{self.second:02d}'
+        return f'{self.hour:02d}:{self.minute:02d}:{self.second:02d}'
 
 def sec_to_time(seconds):
     '''convert a given number of seconds to a time object in 

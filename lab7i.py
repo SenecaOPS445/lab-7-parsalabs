@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Student ID: pbalari
 def function1():
+    global schoolName
     schoolName = 'SICT'
     print('print() in function1 on schoolName:',schoolName)
 
